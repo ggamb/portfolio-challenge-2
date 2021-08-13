@@ -4,13 +4,36 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background: #131516;
+    --text-color: #d8d4cf;
+}
+
 body {
-    background-color: tomato;
+    background-color: var(--background);
+}
+
+.flex-row {
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-col {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+a {
+    font-style: normal;
+    color: var(--text-color);
 }
 
 header {
     padding: 20px 35px;
-    background-color: grey;
+    background-color: var(--background);
     margin: 0 auto;
     position: sticky;
     display: flex;
@@ -59,21 +82,14 @@ section {
     padding: 20px 0 0 0;
 }
 
+.name-text {
+    font-size: large;
+    line-height: 1.7;
+    font-style: italic;
+}
+
 .about-me div div h2 {
     border-right-color: black;
-}
-
-.flex-row {
-    display: flex;
-    flex: wrap;
-    justify-content: space-evenly;
-}
-
-.flex-col {
-    display: flex;
-    flex: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .my-face {
@@ -81,6 +97,29 @@ section {
     width: auto;
     border-radius: 20px;
 }
+
+.contact-text{
+    font-style: normal;
+    color: black;
+}
+
+.contact-text:hover {
+    background-color: black;
+    border-radius: 10px;
+}
+
+footer {
+    background: var(--background);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+}
+
+
+
+
 
 .flex-images {
     
