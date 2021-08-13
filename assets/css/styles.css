@@ -5,22 +5,34 @@
 }
 
 body {
-    background-color: tomato;
+    background-color: orangered;
+}
+
+.flex-row {
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-col {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 header {
     padding: 20px 35px;
-    background-color: grey;
     margin: 0 auto;
     position: sticky;
     display: flex;
     flex: wrap;
     justify-content: space-between;
+    background-color: grey;
 }
 
 header h1 {
     font-weight: bold;
-    color: white;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -56,32 +68,66 @@ section {
 }
 
 .about-me {
-    padding: 20px 0 0 0;
+    padding: 20px;
 }
 
-.about-me div div h2 {
-    border-right-color: black;
+
+.about-me-box {
+    width:500px;
 }
 
-.flex-row {
-    display: flex;
-    flex: wrap;
-    justify-content: space-evenly;
+.face-style{
+    align-self: center;
 }
 
-.flex-col {
-    display: flex;
-    flex: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
+
+.name-text {
+    font-size: 35px;
+    line-height: 1.7;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 .my-face {
     height: 200px;
     width: auto;
     border-radius: 20px;
+    border-color: black;
 }
 
-.flex-images {
-    
+a:link {
+    font-style: normal;
+}
+
+a:visited {
+    color: purple;
+    font-style: italic;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.contact-text {
+    padding: 0 30px;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: grey;
+    position: relative;
+}
+
+footer h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.7;
+    text-align: right;
 }
