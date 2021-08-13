@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--background-col);
 }
 
 .flex-row {
@@ -24,6 +24,7 @@ body {
     flex: wrap;
     flex-direction: column;
     justify-content: space-evenly;
+    width: fit-content;
 }
 
 header {
@@ -72,19 +73,26 @@ section {
 }
 
 .about-me {
-    padding: 20px 0 0 0;
+    padding: 20px;
 }
 
-.flex-col-face {
-    width: 40%;
+.info-about-me {
+    width: 35%;
+    display: inline-block;
+    text-align: right;
+    margin: 3.5%;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 40px;
 }
 
-.flex-col-about-me {
-    height: 60%;
+.info-about-me h2 {
+    color: blue;
 }
 
-.flex-col p {
-    width: 80%;
+.info-about-me p {
+    text-align: right;
+    line-height: 1.7;
 }
 
 .name-text {
@@ -93,25 +101,12 @@ section {
     font-style: italic;
 }
 
-.about-me div div h2 {
-    border-right-color: black;
-}
-
 .my-face {
     height: 200px;
     width: auto;
     border-radius: 20px;
 }
 
-.contact-text{
-    font-style: normal;
-    color: black;
-}
-
-.contact-text:hover {
-    background-color: black;
-    border-radius: 10px;
-}
 
 a:link {
     color: var(--text-color);
@@ -127,25 +122,19 @@ a:hover {
     font-weight: bold;
 }
 
-footer {
+footer{
     background-color: var(--background-col);
+    position: absolute;
+    bottom: 0;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 footer h3 {
     color: var(--text-color);
     font-size: 30px;
     margin: 0;
-}
-
-.flex-foot {
-    display: flex;
-    flex: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.flex-images {
-    
 }
