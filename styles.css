@@ -5,7 +5,7 @@
 }
 
 :root {
-    --background: #131516;
+    --background-col: #131516;
     --text-color: #d8d4cf;
 }
 
@@ -26,14 +26,8 @@ body {
     justify-content: space-evenly;
 }
 
-a {
-    font-style: normal;
-    color: var(--text-color);
-}
-
 header {
     padding: 20px 35px;
-    background-color: var(--background);
     margin: 0 auto;
     position: sticky;
     display: flex;
@@ -43,7 +37,6 @@ header {
 
 header h1 {
     font-weight: bold;
-    color: white;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -108,6 +101,20 @@ section {
     border-radius: 10px;
 }
 
+a:link {
+    color: var(--text-color);
+    font-style: normal;
+}
+
+a:visited {
+    color: purple;
+    font-style: italic;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
 footer {
     background: var(--background);
     width: 100%;
@@ -115,6 +122,12 @@ footer {
     display: flex;
     justify-content: space-between;
     flex: wrap;
+}
+
+footer h3 {
+    color: var(--text-color);
+    font-size: 30px;
+    margin: 0;
 }
 
 
