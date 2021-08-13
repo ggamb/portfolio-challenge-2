@@ -75,6 +75,18 @@ section {
     padding: 20px 0 0 0;
 }
 
+.flex-col-face {
+    width: 40%;
+}
+
+.flex-col-about-me {
+    height: 60%;
+}
+
+.flex-col p {
+    width: 80%;
+}
+
 .name-text {
     font-size: large;
     line-height: 1.7;
@@ -116,12 +128,9 @@ a:hover {
 }
 
 footer {
-    background: var(--background);
+    background-color: var(--background-col);
     width: 100%;
     padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex: wrap;
 }
 
 footer h3 {
@@ -130,9 +139,12 @@ footer h3 {
     margin: 0;
 }
 
-
-
-
+.flex-foot {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .flex-images {
     
