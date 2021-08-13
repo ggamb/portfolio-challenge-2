@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: tomato;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: grey;
+    margin: 0 auto;
+    position: sticky;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+header nav ul a {
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#about-me div h2 {
+    border-right-color: black;
+}
+
+.flex-row {
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-images {
+    
+}
