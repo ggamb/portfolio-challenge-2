@@ -22,9 +22,11 @@ body {
 }
 
 header {
-    padding: 20px 35px;
+    padding: 10px 35px;
     margin: 0 auto;
-    position: sticky;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -78,7 +80,7 @@ h2{
 }
 
 .about-me {
-    padding: 40px;
+    padding: 100px;
 }
 
 .flex-col-about-me {
@@ -119,8 +121,9 @@ a:hover {
     font-weight: bold;
 }
 
-#contact {
-    padding: 25px;
+#my-work {
+    padding: 50px;
+    background-color: purple;
 }
 
 .contact-text {
@@ -130,32 +133,63 @@ a:hover {
 .flex-col-project {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    width: 1000px;
+    width: 810px;
 }
 
 .large-project {
     align-self: center;
-    
+    background-image: url(../images/run-buddy.png);
+    background-size: cover;
+    width: 810px;
+    height: 500px;
+    border-radius: 30px;
+    border: 5px solid black;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.large-project-click {
+    width: 810px;
+    height: 500px;
+    align-self: center;
+}
+
+
+
+.project-overlay {
+    margin-top: 40%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    line-height: 2;
+    padding: 10px 5px;
+    text-align: center;
 }
 
 .large-project-img {
     height: 500px;
     width: 500px;
-    border: 5px solid black;
     overflow: hidden;
     border-radius: 30px;
 }
 
 .small-project{
-    flex: 0 0 0;
+    padding-top: 5px;
     align-self: center;
     border-radius: 15px;
 }
 
-.small-project:after{
-    content: "";
+.small-project a{
+    width: 500px;
+    height: 500px;
+}
+
+.small-project:nth-child(1) {
+    padding-right: 5px;
+}
+
+.small-project:nth-child(4) {
+    padding-right: 5px;
 }
 
 .break {
@@ -165,7 +199,7 @@ a:hover {
 
 .small-project-img {
     height: 250px;
-    width: 250px;
+    width: 400px;
     border: 5px solid black;
     border-radius: 30px;
 }
@@ -174,12 +208,11 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    padding-left: 250px;
 }
 
-.project-overlay {
-    margin: 0 auto;
-    overflow: visible;
+#contact {
+    padding: 50px;
+    background-color: black;
 }
 
 
