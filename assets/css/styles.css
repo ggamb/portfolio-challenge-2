@@ -28,7 +28,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: grey;
+    background-color: black;
 }
 
 header h1 {
@@ -57,9 +57,13 @@ header nav ul li a {
     padding: 10px 20px;
 }
 
+.text-hover {
+    color: white;
+}
+
 .text-hover:hover {
     background: black;
-    color: red;
+    color: white;
     border-radius: 20px;
     text-shadow: none;
 }
@@ -132,8 +136,8 @@ a:hover {
 }
 
 .large-project {
-    flex: 0 0 0%;
     align-self: center;
+    
 }
 
 .large-project-img {
@@ -141,11 +145,13 @@ a:hover {
     width: 500px;
     border: 5px solid black;
     overflow: hidden;
+    border-radius: 30px;
 }
 
 .small-project{
     flex: 0 0 0;
     align-self: center;
+    border-radius: 15px;
 }
 
 .small-project:after{
@@ -157,11 +163,11 @@ a:hover {
     height: 0;
 }
 
-
 .small-project-img {
     height: 250px;
     width: 250px;
     border: 5px solid black;
+    border-radius: 30px;
 }
 
 .flex-row-project {
@@ -169,6 +175,11 @@ a:hover {
     flex-wrap: wrap;
     align-content: center;
     padding-left: 250px;
+}
+
+.project-overlay {
+    margin: 0 auto;
+    overflow: visible;
 }
 
 
