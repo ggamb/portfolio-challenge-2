@@ -218,6 +218,10 @@ a:hover {
     align-content: center;
 }
 
+.project-format {
+    padding-right: 5px;
+}
+
 #contact {
     padding: 50px;
     background-color: black;
