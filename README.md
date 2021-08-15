@@ -16,4 +16,4 @@ None! Click this link: [my website](https://ggamb.github.io/portfolio-challenge-
 
 My Github page: [link](https://github.com/ggamb)
 
-Credit to: UT Coding Bootcamp for providing the original code that I refactored
+Credit to: UT Coding Bootcamp
