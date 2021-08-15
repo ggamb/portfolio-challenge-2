@@ -35,7 +35,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: var(--color)
+    background-color: black;
 }
 
 header h1 {
@@ -73,8 +73,8 @@ header nav ul li a {
     background: black;
     color: white;
     border-radius: 30px;
-    padding: 10px, 10px
-    background-color: red;
+    padding: 10px, 10px;
+    background-color: black;
 }
 
 section {
@@ -82,7 +82,7 @@ section {
 }
 
 h2{
-    color: red;
+    color: white;
     font-style: italic;
     font-size: 30px;
     font-family: sans-serif;
@@ -110,6 +110,7 @@ h2{
     height: 200px;
     width: auto;
     border-radius: 20px;
+    border: 5px solid black;
 }
 
 .name-text {
@@ -256,4 +257,103 @@ footer h3 {
 footer div {
     line-height: 1.7;
     text-align: right;
+}
+
+@media screen and (max-width: 980px) {
+
+    #about-me {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .flex-row {
+        width: 100%;
+    }
+
+    #my-work {
+        flex-direction: column;
+    }
+
+    .large-project {
+        width: 600px;
+    }
+
+    .flex-col-project {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .break {
+        padding-top: 0;
+    }
+    
+    div:not(.break) {
+        padding-bottom: 5px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    h2 {
+        text-align: center;
+    }
+
+    .flex-row {
+        width: 100%;
+    }
+
+    #my-work {
+        flex-direction: column;
+    }
+
+    .large-project {
+        width: 500px;
+    }
+
+    .flex-col-project {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .break {
+        padding-top: 0;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    #about-me {
+        padding-bottom: 20px;
+    }
+
+    .flex-row {
+        justify-content: center;
+    }
+
+    address {
+        text-align: center;
+    }
+
+    div:not(.break) {
+        padding-top: 2px;
+    }
+
+    .contact-text {
+        padding: 0 10px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+
+    
+
+    
 }
