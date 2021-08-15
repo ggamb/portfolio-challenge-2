@@ -137,7 +137,6 @@ a:hover {
 }
 
 .large-project {
-    align-self: center;
     background-image: url(../images/run-buddy.png);
     background-size: cover;
     width: 810px;
@@ -148,15 +147,7 @@ a:hover {
     margin: 0 auto;
 }
 
-.large-project-click {
-    width: 810px;
-    height: 500px;
-    align-self: center;
-}
-
-
-
-.project-overlay {
+.project-overlay-large {
     margin-top: 40%;
     width: 100%;
     background-color: black;
@@ -176,25 +167,42 @@ a:hover {
 .small-project{
     padding-top: 5px;
     align-self: center;
-    border-radius: 15px;
+    background-image: url(https://www.fillmurray.com/400/250);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    border: 5px solid black;
+    margin: 0 auto;
 }
 
-.small-project a{
-    width: 500px;
-    height: 500px;
+.small-project-1{
+    background-image: url(../images/horiseon.png);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    border: 5px solid black;
+    margin: 0 auto;
+    padding: 5px, 5px;
 }
 
-.small-project:nth-child(1) {
-    padding-right: 5px;
+.project-overlay-small {
+    margin-top: 40%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    line-height: 2;
+    padding: 10px;
+    text-align: center;
+    align-self: center;
 }
 
-.small-project:nth-child(4) {
-    padding-right: 5px;
-}
 
 .break {
     flex-basis: 100%;
     height: 0;
+    padding-top: 5px;
 }
 
 .small-project-img {
@@ -214,7 +222,6 @@ a:hover {
     padding: 50px;
     background-color: black;
 }
-
 
 footer{
     bottom: 0;
