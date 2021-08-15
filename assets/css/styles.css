@@ -5,13 +5,12 @@
 }
 
 :root{
-    --color: linear-gradient(red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);
+    --color: linear-gradient(200deg, red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);
 }
 
 body {
     background-color: rgb(2, 0, 36);
     background: var(--color);
-    z-index: 900;
 }
 
 .flex-row {
