@@ -43,6 +43,7 @@ header h1 {
     text-shadow: 2px 2px 2px black;
     color: white;
     text-decoration: black;
+    align-self: flex-start;
 }
 
 header h1:hover {
@@ -249,6 +250,11 @@ footer{
     position: relative;
 }
 
+address {
+    text-align: center;
+    padding-top: 10px;
+}
+
 footer h3 {
     font-size: 30px;
     margin: 0;
@@ -291,6 +297,11 @@ footer div {
         padding-top: 0;
     }
     
+    address {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
     div:not(.break) {
         padding-bottom: 5px;
     }
@@ -324,8 +335,66 @@ footer div {
         padding-top: 0;
     }
 
-    header {
+
+    #about-me {
+        padding-bottom: 20px;
+    }
+
+    .flex-row {
         justify-content: center;
+    }
+
+    address {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    div:not(.break) {
+        padding-top: 2px;
+    }
+
+    .contact-text {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 575px) {
+
+    header {
+        display: unset;
+    }
+
+
+    h1{
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .flex-row {
+        width: 100%;
+    }
+
+    #my-work {
+        flex-direction: column;
+    }
+
+    .large-project {
+        width: 300px;
+    }
+
+    .flex-col-project {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .break {
+        padding-top: 0;
     }
 
     #about-me {
@@ -338,6 +407,10 @@ footer div {
 
     address {
         text-align: center;
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     div:not(.break) {
@@ -348,12 +421,14 @@ footer div {
         padding: 0 10px;
         text-align: center;
     }
-    
-}
 
-@media screen and (max-width: 575px) {
+    .small-project-1{
+        width: 250px;
+    }
 
-    
+    .small-project {
+        width: 250px;
+    }
 
     
 }
