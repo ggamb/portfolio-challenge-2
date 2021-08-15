@@ -6,7 +6,7 @@ This is my first website entirely from scratch and showcases the projects I have
 
 ## Installation
 
-None! Click this link: ![my website](https://ggamb.github.io/portfolio-challenge-2/)
+None! Click this link: [my website](https://ggamb.github.io/portfolio-challenge-2/)
 
 ## Deployed Project
 
@@ -14,6 +14,6 @@ None! Click this link: ![my website](https://ggamb.github.io/portfolio-challenge
 
 ## Credits
 
-My Github page: ![link](https://github.com/ggamb)
+My Github page: [link](https://github.com/ggamb)
 
 Credit to: UT Coding Bootcamp for providing the original code that I refactored
