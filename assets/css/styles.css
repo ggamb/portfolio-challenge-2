@@ -106,6 +106,14 @@ h2{
     padding: 100px;
 }
 
+.flex-col-face {
+    border-right: solid 2px black;
+    padding-right: 10px;
+    align-self: flex-start;
+    text-align: center;
+    flex-basis: 10%;
+}
+
 .flex-col-about-me {
     display: flex;
     flex-wrap: wrap;
@@ -161,7 +169,6 @@ a:hover {
 }
 
 #my-work {
-    padding: 50px;
     background-color: var(--color);
 }
 
@@ -349,6 +356,16 @@ footer h3 {
 footer div {
     line-height: 1.7;
     text-align: right;
+}
+
+@media screen and (max-width: 1025px) {
+    .my-work {
+        border-right: transparent;
+    }
+    
+    .contact-me {
+        border-right: transparent;
+    }
 }
 
 @media screen and (max-width: 980px) {
