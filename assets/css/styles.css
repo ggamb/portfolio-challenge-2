@@ -1,17 +1,21 @@
+/*Universal and general selectors*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+section {
+    display: block;
+}
+
+/*Universal color scheme*/
+
 :root{
     --color: linear-gradient(200deg, red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);
 }
 
-body {
-    background-color: rgb(2, 0, 36);
-    background: var(--color);
-}
+/*Often-used classes throughout the HTML file*/
 
 .flex-row {
     display: flex;
@@ -25,6 +29,62 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.text-hover {
+    color: white;
+}
+
+.text-hover:hover {
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    padding: 10px, 10px;
+    background-color: black;
+}
+
+h2{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-right: black;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+a {
+    border: 2px solid white;
+    border-radius: 20px; 
+    background-color: black;
+    margin: 10px 0;
+}
+
+a:link {
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: black;
+    color: purple;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    border: 2px solid rgb(160, 154, 154);
+    border-radius: 20px; 
+    background-color: red;
+}
+
+/*Body, header, and nav customization*/
+
+body {
+    background-color: rgb(2, 0, 36);
+    background: var(--color);
 }
 
 header {
@@ -67,31 +127,7 @@ header nav ul li a {
     padding: 10px 20px;
 }
 
-.text-hover {
-    color: white;
-}
-
-.text-hover:hover {
-    background-color: red;
-    color: white;
-    border-radius: 30px;
-    padding: 10px, 10px;
-    background-color: black;
-}
-
-section {
-    display: block;
-}
-
-h2{
-    color: white;
-    font-style: italic;
-    font-size: 30px;
-    font-family: sans-serif;
-    border-right: black;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
+/*Background hero image*/
 .hero-image {
     /*Image courtsesy of https://unsplash.com/photos/5fNmWej4tAA*/
     background-image: url(../images/hero.jpg);
@@ -102,6 +138,7 @@ h2{
     background-position: 80%;
 }
 
+/*My picture and About me section*/
 .about-me {
     padding: 100px;
 }
@@ -140,33 +177,7 @@ h2{
     text-align: center;
 }
 
-a {
-    border: 2px solid white;
-    border-radius: 20px; 
-    background-color: black;
-    margin: 10px 0;
-}
 
-a:link {
-    font-style: normal;
-    text-decoration: none;
-}
-
-a:visited {
-    background-color: black;
-    color: white;
-    border: 2px solid white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover {
-    border: 2px solid rgb(160, 154, 154);
-    border-radius: 20px; 
-    background-color: red;
-}
 
 #my-work {
     background-color: var(--color);
