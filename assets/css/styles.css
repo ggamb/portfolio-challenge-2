@@ -11,7 +11,7 @@ section {
 
 /*Universal color scheme*/
 
-:root{
+:root {
     --color: linear-gradient(200deg, red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);
 }
 
@@ -29,18 +29,6 @@ section {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-}
-
-.text-hover {
-    color: white;
-}
-
-.text-hover:hover {
-    background-color: red;
-    color: white;
-    border-radius: 30px;
-    padding: 10px, 10px;
-    background-color: black;
 }
 
 h2{
@@ -75,7 +63,7 @@ a:visited {
 }
 
 a:hover {
-    border: 2px solid rgb(160, 154, 154);
+    border: 2px solid white;
     border-radius: 20px; 
     background-color: red;
     transition: .25s;

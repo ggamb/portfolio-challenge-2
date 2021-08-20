@@ -1,35 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
         <link rel="stylesheet" href="./assets/css/styles.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <title>Glenn Gambardella</title>
     </head>
 
     <body>
+        <!--Header and nav-->
         <header>
             <h1>
                 ggamb
             </h1>
             <nav>
                 <ul>
-                    <li class="text-hover">
+                    <li>
                         <a href="#about-me">About Me</a>
                     </li>
-                    <li class="text-hover">
+                    <li>
                         <a href="#my-work" >My Work</a>
                     </li>
-                    <li class="text-hover">
+                    <li>
                         <a href="#contact">Contact Me</a>       
                     </li>
                 </ul>
             </nav>
         </header>
+        <!--Hero image-->
         <div class="hero-image"></div>
+        <!--About me section-->
         <section id="about-me" class="about-me">
             <div class="flex-row">
+                <!--Flexbox contatining a picture of me and information about me-->
                 <div class="flex-col">
                     <div class="face-style">
                         <img class="my-face" src="./assets/images/my-face.jpg" alt="That's me!">
@@ -47,8 +52,10 @@
                 </div>
             </div>
         </section>
+        <!--My Work section-->
         <section id="my-work" class="flex-row">
             <h2 class="my-work">My Work</h2>
+            <!--Flex box column showing five of my projects with one being more prominent-->
             <div class="flex-col-project">
                 <div>
                     <a href="https://ggamb.github.io/run-buddy/" class = "clickable-link" target="_blank">
@@ -89,6 +96,7 @@
                 </div>
             </div>
         </section>
+        <!--Information to contact me-->
         <section id="contact">
             <div class="flex-row">
                 <h2 class="contact-me">Contact Me</h2>
@@ -108,6 +116,7 @@
                 </ul>
             </div>
         </section>
+        <!--Footer information-->
         <footer>
             <h3>Please reach out!</h3>
             <div class="text-hover">
