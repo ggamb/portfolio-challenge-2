@@ -9,8 +9,9 @@ This is my first website entirely from scratch and showcases the projects I have
 None! Click this link: [my website](https://ggamb.github.io/portfolio-challenge-2/)
 
 ## Deployed Project
+Check out this screenshot:
 
-(enter a screenshot of the finished project here)
+![My website](https://user-images.githubusercontent.com/86434738/130296927-59ca0ea6-f829-4b65-9bb7-47da75ea1cf7.png)
 
 ## Credits
 
