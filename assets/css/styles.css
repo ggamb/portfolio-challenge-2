@@ -66,7 +66,7 @@ a:link {
 
 a:visited {
     background-color: black;
-    color: purple;
+    color: orange;
     border: 2px solid white;
     padding: 10px 20px;
     text-align: center;
@@ -78,6 +78,7 @@ a:hover {
     border: 2px solid rgb(160, 154, 154);
     border-radius: 20px; 
     background-color: red;
+    transition: .25s;
 }
 
 /*Body, header, and nav customization*/
@@ -143,14 +144,6 @@ header nav ul li a {
     padding: 100px;
 }
 
-.flex-col-face {
-    border-right: solid 2px black;
-    padding-right: 10px;
-    align-self: flex-start;
-    text-align: center;
-    flex-basis: 10%;
-}
-
 .flex-col-about-me {
     display: flex;
     flex-wrap: wrap;
@@ -177,7 +170,7 @@ header nav ul li a {
     text-align: center;
 }
 
-
+/*My work section customization*/
 
 #my-work {
     background-color: var(--color);
@@ -190,12 +183,6 @@ header nav ul li a {
     height: 1050px;
     text-align: center;
     flex-basis: 20%;
-}
-
-.contact-text {
-    padding: 0 30px;
-    font-size: 20px;
-    color: white;
 }
 
 .flex-col-project {
@@ -292,19 +279,21 @@ header nav ul li a {
     border-radius: 30px;
 }
 
-.flex-row-project {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-.project-format {
+.project-padding {
     padding-right: 5px;
 }
+
+/*Contact me section customization*/
 
 #contact {
     padding: 50px;
     background-color: var(--color);
+}
+
+.contact-text {
+    padding: 0 30px;
+    font-size: 20px;
+    color: white;
 }
 
 .contact-me {
@@ -314,13 +303,6 @@ header nav ul li a {
     height: 50px;
     text-align: center;
     flex-basis: 20%;
-    /*border-right: solid 2px black;
-    padding-right: 10px;
-    align-self: flex-start;
-    height: 50px;
-    text-align: left;
-    flex-basis: 20%;
-    width: 345px;*/
 }
 
 .contact-flex {
@@ -337,8 +319,10 @@ header nav ul li a {
 }
 
 .phone-image::before {
-    content: "📱";
+    content: "📱 ";
 }
+
+/*Footer customization*/
 
 footer{
     bottom: 0;
@@ -353,8 +337,6 @@ footer{
     background-color: black;
 }
 
-
-
 footer h3 {
     color: white;
     font-style: italic;
@@ -368,6 +350,8 @@ footer div {
     line-height: 1.7;
     text-align: right;
 }
+
+/*Formatting for different size screens */
 
 @media screen and (max-width: 1025px) {
     .my-work {
@@ -599,7 +583,5 @@ footer div {
 
     .contact-flex li {
         margin: 20px 0;
-    }
-
-    
+    }    
 }
