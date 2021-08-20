@@ -60,6 +60,7 @@ a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+
 }
 
 a:hover {
@@ -67,6 +68,7 @@ a:hover {
     border-radius: 20px; 
     background-color: hsl(0, 100%, 50%, 70%);
     transition: .25s;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 /*Body, header, and nav customization*/
