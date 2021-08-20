@@ -65,7 +65,7 @@ a:visited {
 a:hover {
     border: 2px solid white;
     border-radius: 20px; 
-    background-color: red;
+    background-color: hsl(0, 100%, 50%, 70%);
     transition: .25s;
 }
 
@@ -137,6 +137,7 @@ header nav ul li a {
     flex-direction: column;
     justify-content: space-evenly;
     flex-basis: 400px;
+    padding-left: 160px;
 }
 
 .face-style{
@@ -155,6 +156,17 @@ header nav ul li a {
     line-height: 1.7;
     font-family: sans-serif;
     text-align: center;
+}
+
+.about-me-header {
+    align-self: flex-start;
+}
+
+.about-me-text {
+    width: 750px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    font-size: larger;
 }
 
 /*My work section customization*/
