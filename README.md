@@ -16,7 +16,8 @@ None! Click this link: [My website](https://ggamb.github.io/portfolio-challenge-
 
 Check out this screenshot:
 
-![My website](https://user-images.githubusercontent.com/86434738/130296927-59ca0ea6-f829-4b65-9bb7-47da75ea1cf7.png)
+![My website](https://user-images.githubusercontent.com/86434738/130325533-8c9699bf-3db8-4403-aa32-e92c829017dd.png)
+
 
 ## Credits
 
