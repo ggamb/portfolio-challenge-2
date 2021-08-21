@@ -10,13 +10,11 @@ section {
 }
 
 /*Universal color scheme*/
-
 :root {
     --color: linear-gradient(200deg, red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);
 }
 
 /*Often-used classes throughout the HTML file*/
-
 .flex-row {
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +70,6 @@ a:hover {
 }
 
 /*Body, header, and nav customization*/
-
 body {
     background-color: rgb(2, 0, 36);
     background: var(--color);
@@ -126,6 +123,7 @@ header nav ul li a {
     background-position: center;
     height: 500px;
     background-position: 80%;
+    width: 100%;
 }
 
 /*My picture and About me section*/
@@ -172,7 +170,6 @@ header nav ul li a {
 }
 
 /*My work section customization*/
-
 #my-work {
     background-color: var(--color);
 }
@@ -284,7 +281,6 @@ header nav ul li a {
 }
 
 /*Contact me section customization*/
-
 #contact {
     padding: 50px;
     background-color: var(--color);
@@ -323,7 +319,6 @@ header nav ul li a {
 }
 
 /*Footer customization*/
-
 footer{
     bottom: 0;
     width: 100%;
@@ -352,8 +347,7 @@ footer div {
 }
 
 /*Formatting for different size screens */
-
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1115px) {
     .my-work {
         border-right: transparent;
     }
@@ -361,7 +355,27 @@ footer div {
     .contact-me {
         border-right: transparent;
     }
+
+    .flex-col-about-me {
+        padding-left: 0px;
+    }
+
+    .about-me-text {
+        width: 455px;
+    }
+
+    .about-me-header {
+        align-self: center;
+    }
+
 }
+
+@media screen and (max-width: 1012px) {
+    .my-work{
+        height: auto;
+    }
+}
+
 
 @media screen and (max-width: 980px) {
 
@@ -413,7 +427,7 @@ footer div {
 
     .contact-me {
         border-right: solid 0px transparent;
-        flex-basis: 20%;
+        flex-basis: 40%;
         height: 75px;
     }
 
@@ -446,7 +460,6 @@ footer div {
         padding-top: 0;
     }
 
-
     #about-me {
         padding-bottom: 20px;
     }
@@ -478,11 +491,13 @@ footer div {
 
     .contact-me {
         border-right: solid 0px transparent;
-        flex-basis: 30%;
+        flex-basis: 40%;
         height: 75px;
     }
 
-    
+    .contact-flex a {
+        padding: 5px 5px;
+    }    
 }
 
 @media screen and (max-width: 575px) {
