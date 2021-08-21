@@ -213,6 +213,14 @@ header nav ul li a {
     margin: 0 auto;
 }
 
+.large-project:hover, .small-project:hover, .small-project-1:hover {
+    border: 5px solid red;
+    border-radius: 30px; 
+    background-color: red;
+    opacity: 80%;
+    transition: .2s;
+}
+
 .project-overlay-large {
     margin-top: 40%;
     width: 100%;
