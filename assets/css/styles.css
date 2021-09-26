@@ -260,6 +260,16 @@ header nav ul li a {
     margin: 0 auto;
 }
 
+.small-project-2{
+    background-image: url(../images/TBD.png);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
 .project-overlay-small {
     margin-top: 40%;
     width: 100%;
