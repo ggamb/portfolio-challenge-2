@@ -1,4 +1,4 @@
-# **Portfolio challenge 2**
+# **HTML/CSS portfolio**
 
 ## Repository Description
 
